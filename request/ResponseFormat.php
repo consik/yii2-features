@@ -14,7 +14,8 @@ use yii\web\Response;
 
 /**
  * Class ResponseFormat
- * ```php
+ * Action filter that changes response format.
+ *
  * public function behaviors()
  * {
  *     return [
