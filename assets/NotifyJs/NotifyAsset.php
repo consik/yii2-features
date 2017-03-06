@@ -1,27 +1,26 @@
 <?php
 /**
- * Asset bundle for gasparesganga-jquery-loading-overlay
- * @link http://gasparesganga.com/labs/jquery-loading-overlay/
- * @author JS LIB BY © 2014 - 2017 Gaspare Sganga
+ * Asset bundle for notify.js
+ * @link https://notifyjs.com/
+ * @author JS LIB BY © Jaime Pillora
  */
 namespace consik\yii2features\assets\LoaderOverlay;
 
 /**
- * Class AssetBundle
+ * Class NotifyAsset
  * @link https://github.com/consik/yii2-features
  * @package consik\yii2features\assets\LoaderOverlay
  *
  * @author Sergey Poltaranin <consigliere.kz@gmail.com>
  * @copyright Copyright (c) 2017
  */
-class AssetBundle extends \yii\web\AssetBundle
+class NotifyAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = __DIR__ . '/js/';
     public $basePath = '';
     public $css = [];
     public $js = [
-        'loadingoverlay.min.js',
-        'loadingoverlay_progress.min.js'
+        'notify.min.js',
     ];
     public $depends = [
         \yii\web\JqueryAsset::class

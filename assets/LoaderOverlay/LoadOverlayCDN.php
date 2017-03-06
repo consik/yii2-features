@@ -7,14 +7,14 @@
 namespace consik\yii2features\assets\LoaderOverlay;
 
 /**
- * Class CDNBundle
+ * Class LoadOverlayCDN
  * @link https://github.com/consik/yii2-features
  * @package consik\yii2features\assets\LoaderOverlay
  *
  * @author Sergey Poltaranin <consigliere.kz@gmail.com>
  * @copyright Copyright (c) 2017
  */
-class CDNBundle extends \yii\web\AssetBundle
+class LoadOverlayCDN extends \yii\web\AssetBundle
 {
     public $sourcePath = __DIR__ . '/js/';
     public $basePath = '';
