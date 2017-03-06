@@ -4,7 +4,7 @@
  * @link https://notifyjs.com/
  * @author JS LIB BY © Jaime Pillora
  */
-namespace consik\yii2features\assets\LoaderOverlay;
+namespace consik\yii2features\assets\NotifyJs;
 
 /**
  * Class NotifyAsset
