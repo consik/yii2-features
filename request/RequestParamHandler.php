@@ -24,7 +24,6 @@ use yii\base\Behavior;
  *         ],
  *     ];
  * }
- * @package app\components
  */
 class RequestParamHandler extends Behavior
 {
